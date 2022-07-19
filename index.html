@@ -4,26 +4,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Log in to Facebook</title>
+  <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <main class="main_container">
+    
     <section class="sub_container">
+      
       <h1 class="heading">Facebook</h1>
+      
       <section class="form_container">
-        <h5>Log in to facebook</h5>
-        <form action="#" method="post" class="data">
-          <input type="text" name="Email or phone number" placeholder="Email adress or phone number" />
-          <input type="password" name="Password" placeholder="password" />
-          <input type="submit" name="Log in" value="Log in" />
+        <h5 class="log">Log in to facebook</h5>
+        
+        <form action="#" method="post" class="data" autocomplete="autocomplete">
+          <input type="text" name="Email or phone number" placeholder="Email adress or phone number" autocomplete="username" aria-label="Email address or phone number"/>
+          <input type="password" name="Password" placeholder="Password" aria-label="Password" />
+          <input type="submit" name="Log in" value="Log in" class="send"/>
+        
+        
+          <a href="#" class="forgot">Forgotten account?</a>
+          
+         <section class="span_or"><span class="or">or</span></section>
+          
+          <button type="button" class="btn">Create New Account</button>
+
         </form>
-        <p>Forgotten account?</p>
-        <p>or</p>
-        <button type="button">Create New Account</button>
       </section>
+      
     </section>
+    
   </main>
 </body>
 
