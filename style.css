@@ -113,3 +113,12 @@ a:hover{
   width: 50%;
   align-self: center;
 }
+.send, .btn{
+  cursor: pointer;
+}
+.send:hover{
+  background: #105fc6;
+}
+.btn:hover{
+  background: #378628;
+}
